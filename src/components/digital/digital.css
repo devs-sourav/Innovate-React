@@ -1,0 +1,113 @@
+#digital{
+    padding-top: 160px;
+    position: relative;
+}
+#digital .circle2 {
+	position: absolute;
+	left: 680px;
+	top: 325px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 2px solid #FFABBA;
+	animation: circle2 10s linear infinite;
+}
+.header h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+.header h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67.2px;
+    color: #29313D;
+    text-transform: capitalize;
+    width: 450px;
+    margin-top: 10px;
+}
+.dig_wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.dig_item_left{
+    width: 50%;
+    height: 521px;
+}
+.dig_item_left img{
+    width: 108%;
+    height: 100%;
+    position: relative;
+    right: 0px;
+    z-index: 1;
+}
+
+.dig_item_right{
+    width: 50%;
+    height: 625px;
+    background: url(../../../public/images/digital_right_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 150px;
+
+}
+.dig_item_right h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    color: #29313D;
+    text-transform: capitalize;
+    width: 570px;
+    margin-bottom: 20px;
+
+}
+.dig_item_right p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #29313D;
+    text-transform: capitalize;
+    width: 501px;
+    margin-bottom: 48px;
+}
+.dig_item_right .btn a{
+    padding: 13px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+    border-radius: 18px;
+    background: #FF5538;
+    transition: all linear 0.3s;
+    text-transform: capitalize;
+    border: 1px solid #FF5538;
+}
+.dig_item_right .btn a:hover{
+    color: #FF5538;
+    background: transparent;
+}
+.dig_item_right img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 215px;
+    height: 415px;
+}
+.cross_dig {
+	position: absolute;
+	right: 40px;
+	top: 290px;
+	font-size: 22px;
+	color: #C087EE;
+	animation: cross1 4s linear infinite;
+}

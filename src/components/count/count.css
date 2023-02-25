@@ -1,0 +1,92 @@
+#count{
+    padding: 120px 0;
+    background: #FDF9F8;
+    position: relative;
+}
+
+.count_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    position: relative;
+}
+.count_wrap .circle2 .cir_circle2 {
+	width: 30px;
+	height: 30px;
+	left: 25px;
+	top: 0;
+}
+.count_wrap .circle2 {
+	left: -125px;
+	top: 159px;
+	width: 170px;
+	height: 170px;
+}
+.count_wrap .count_left {
+	width: 548px;
+	height: 490px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	position: relative;
+	z-index: 1;
+}
+.count_item{
+    width: 259px;
+    height: 230px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count_item .count_text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #29313D;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.count_item .count_text h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #29313D;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+}
+.count_wrap .dig_item_right{
+    background: transparent;
+    padding: 0 0;
+}
+.count_wrap .dig_item_right h3{
+    width: 570px;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 67.2px;
+    color: #29313D;
+    margin-bottom: 20px;
+}
+.count_wrap .dig_item_right{
+    height: 0;
+}
+.count_wrap .dig_item_right p{
+    width: 550px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #29313D;
+    margin-bottom: 40px;
+}
+.count_icon {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

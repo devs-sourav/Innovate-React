@@ -1,0 +1,27 @@
+#trust{
+    padding: 120px 0;
+}
+.trust_wrap .header h2{
+    width: 849px;
+    margin: 0 auto;
+    text-align: center;
+}
+.trust_wrap .header{
+    margin-bottom: 60px;
+}
+.trust_com{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.trust_com .trust_item{
+    width: 210px;
+    height: 130px;
+    background: #FDF9F8;
+}
+.trust_item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

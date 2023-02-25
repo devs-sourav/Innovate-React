@@ -1,0 +1,50 @@
+#project{
+    padding: 100px 0;
+    background: #FFD7C8;
+    position: relative;
+    overflow: hidden;
+}
+.project_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    border-bottom: 2px solid #D4B6AC;
+}
+.project_head .header h4{
+    color: #29313D;
+}
+.project_head .btn a{
+    z-index: 1;
+    position: relative;
+    padding: 13px 28px;
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #29313D;
+    border-radius: 18px;
+    transition: all linear 0.3s;
+    border: 1px solid #FF5538;
+}
+.project_head .btn a:hover{
+    background: #FF5538;
+    color: #fff;
+}
+.project_pera p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #29313D;
+    width: 1283px;
+    margin-top: 24px;
+    text-transform: capitalize;
+}
+.project_ov {
+	position: absolute;
+	right: -60px;
+	top: 0;
+}

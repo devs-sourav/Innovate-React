@@ -1,0 +1,106 @@
+#work{
+    padding-top: 150px;
+    padding-bottom: 120px;
+    position: relative;
+
+}
+.work_wrap{
+    position: relative;
+}
+#work .cross_work {
+	position: absolute;
+	right: -70px;
+	bottom: -50px;
+	font-size: 22px;
+	color: #C087EE;
+	animation: cross1 4s linear infinite;
+}
+
+.work_wrap .work_head .header h2{
+    width:693px;
+}
+.work_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.work_head .btn a {
+	padding: 13px 28px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+	color: #29313D;
+	border-radius: 18px;
+	transition: all linear 0.3s;
+	text-transform: capitalize;
+	border: 1px solid #FF5538;
+}
+.work_head .btn a:hover{
+    background: #FF5538;
+    color: #fff;
+}
+.work_img_wrap{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.work_img_wrap .img_left{
+    width: 570px;
+    height: 458px;
+    position: relative;
+}
+.work_img_wrap .img_left img{
+    width: 100%;
+    height: 100%;
+}
+.work_img_wrap .img_left .work_ov{
+    width: 100%;
+    height: 127px;
+    left: 0;
+    bottom: -50px;
+    position: absolute;
+    transition: all linear 0.3s;
+    opacity: 0;
+    padding: 37px 0 0 31px;
+    background: #fff;
+    box-shadow: 2px 4px 43px -12px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 2px 4px 43px -12px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 4px 43px -12px rgba(0,0,0,0.4);
+}
+.work_img_wrap .img_left:hover .work_ov{
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    
+}
+.work_img_wrap .img_left .work_ov h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+    color: #29313D;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.work_img_wrap .img_left .work_ov a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+.work_img_wrap .img_right{
+    width: 810px;
+    height: 458px;
+}
+#work .icon_img {
+	position: absolute;
+	left: -10px;
+	top: -246px;
+    z-index: -1;
+}
